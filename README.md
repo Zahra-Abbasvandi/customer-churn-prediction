@@ -1,6 +1,5 @@
-# customer-churn-prediction
-Customer churn analysis using Python and machine learning
 # Customer Churn Prediction (Consulting Case Study)
+Customer churn analysis using Python and machine learning
 
 ## Business Problem
 Customer churn is a critical challenge for subscription-based businesses. Retaining existing customers is more cost-effective than acquiring new ones. This project aims to identify customers who are most likely to churn and provide actionable insights to reduce churn.
