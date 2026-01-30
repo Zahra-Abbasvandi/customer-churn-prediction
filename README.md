@@ -23,7 +23,7 @@ Which customers are most likely to churn, and what actions should the business t
 - 
 ## Project Structure & Notebooks
 
-This project is organized into multiple Jupyter notebooks to clearly separate each stage of the data science workflow, and still it is ongoing.
+This project is organized into multiple Jupyter notebooks to clearly separate each stage of the data science workflow.
 
 ### Notebook 1: 01_data_exploration_eda.ipynb
 - Loaded and inspected the raw customer churn dataset
@@ -35,5 +35,15 @@ This project is organized into multiple Jupyter notebooks to clearly separate ea
 - Cleaned and prepared the dataset for modeling
 - Handled data type issues and missing values
 - Encoded categorical variables and engineered churn-related features
-- Saved a cleaned, model-ready dataset for downstream analysis
+- Split the data into training and testing sets
+
+### Notebook 3: 03_modeling_evaluation.ipynb
+- Built baseline and advanced machine learning models (Logistic Regression, Random Forest)
+- Evaluated models using accuracy, recall, precision, F1-score, and ROC-AUC
+- Compared model performance with a focus on recall for churners (class = 1)
+
+### Notebook 4: 04_explainable_ai.ipynb
+- Applied SHAP for model explainability and feature impact analysis
+- Generated customer-level churn probabilities and risk segments
+- Translated model outputs into actionable business recommendations
 
